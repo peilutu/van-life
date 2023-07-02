@@ -1,5 +1,5 @@
 const Footer = () => {
-  return <footer style={{ textAlign: "center" }}>@ 2023 #VANLIFE</footer>;
+  return <footer style={{ textAlign: "center" }}>&#169; 2023 #VANLIFE</footer>;
 };
 
 export default Footer;

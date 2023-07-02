@@ -60,11 +60,8 @@ a {
 }
 
 .links a {
-  color: #999;
-  cursor: pointer;
-}
-.links a .active {
   color: #000;
+  cursor: pointer;
 }
 
 .links a:hover {
@@ -120,12 +117,60 @@ a {
   border-radius: 5px;
   margin-top: 20px;
 }
+
+/* === vans list ===  */
+
+.vans-container {
+  margin: 40px;
+}
+.van-list-container {
+  display: flex;
+  gap: 40px;
+  margin: 20px;
+}
+
+.vanElement {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.vanElement img {
+  border-radius: 30px;
+}
+
+.vanElement:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* === van details page ===  */
+
+.vanDetains {
+  display: flex;
+  gap: 40px;
+  margin: 30px;
+}
+
+/* === host === */
+
+.host-nav a {
+  color: #fff;
+  background-color: rgb(217, 184, 143);
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.host-nav a .active {
+  background-color: rgb(160, 123, 78);
+}
 /* ===== footer ====  */
 
 footer {
   padding: 25px;
-  background-color: #242424b8;
+  background-color: #434339;
   color: #fff;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+}
+
+.myLink {
+  background-color: rgb(178, 139, 88) !important;
 }
